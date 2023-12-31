@@ -65,7 +65,7 @@ function AddProduct() {
                
                 <div className="mb-3">
                     <label htmlFor="Featured" className="form-label">Featured</label>
-                    <input type="featured" className="form-control" id="featured" name="featured" onChange={onChange} placeholder='True or False' required />
+                    <input type="featured" className="form-control" id="featured" name="featured" onChange={onChange} placeholder='true or false' required />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="Rating" className="form-label">Rating</label>
